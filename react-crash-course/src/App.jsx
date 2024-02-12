@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Post from './components/Post';
+import PostsList from './components/PostsList';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <main>
-      <Post author="tim" body="abc"/>
-      <Post author="bob" body="xyz" />
+      <PostsList />
     </main>
   )
 }
