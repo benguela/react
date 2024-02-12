@@ -7,10 +7,8 @@ function App() {
 
   return (
     <main>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post author="tim" body="abc"/>
+      <Post author="bob" body="xyz" />
     </main>
   )
 }
